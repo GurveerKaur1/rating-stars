@@ -1,0 +1,116 @@
+.container {
+    width: min(100% - 30px, 1280px);
+    margin-inline: auto;
+
+}
+
+body {
+    display: grid;
+    place-content: center;
+    overflow: hidden;
+    height: 100vh;
+}
+
+
+.gold {
+    color: goldenrod;
+}
+
+.grey {
+    color: gray;
+}
+
+.child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    position: relative;
+
+
+}
+
+.child svg {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+h2 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.ratings {
+    height: 50px;
+    font-weight: 700;
+}
+
+button {
+    align-content: right;
+    height: 40px;
+    text-align: center;
+    width: 140px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: aqua;
+}
+
+button:hover{
+    background-color: lightseagreen;
+}
+
+.dialog h3 {
+    color: aqua;
+    padding: 5px;
+    font-size: 24px;
+}
+
+.dialog {
+    height: 200px;
+    background-color: aliceblue;
+    width: 320px;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    text-align: center;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.open {
+    bottom: 20px;
+    right: 40px;
+    position: absolute;
+
+}
+
+.close-dialog {
+    display: none;
+}
+
+.notDialog {
+    display: none;
+}
+
+.para{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.close{
+    margin-top: 10px;
+}

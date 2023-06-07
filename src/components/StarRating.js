@@ -28,7 +28,6 @@ function StarRating() {
             ))}
             </div>
             <h2 className='ratings'>{word}</h2>
-
         </div>
     );
 }

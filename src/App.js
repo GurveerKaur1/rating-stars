@@ -11,10 +11,8 @@ function App() {
     if (dialogClick === true && showText === false) {
       setText(true);
       setValue(false)
-    }
-    
+    }    
   }
-
   const closeDialog = () => {
     setText(false);
     setValue(true);
@@ -29,8 +27,7 @@ function App() {
         showText={showText}
         show={show}
         closeDialog = {closeDialog} />
-            <button onClick={show} className={dialogClick ? 'open' : 'close-dialog'} >Dialog</button>
-
+       <button onClick={show} className={dialogClick ? 'open' : 'close-dialog'} >Dialog</button>
     </div>
   );
 }

@@ -1,5 +1,4 @@
 function Dialog(props) {
-   
     return (
         <div class="main">
             <div className={props.showText ? 'dialog' : 'notDialog'}>
@@ -7,9 +6,7 @@ function Dialog(props) {
                 <p className = "para">Rate my website by clicking the stars</p>
                 <button className="close" onClick={props.closeDialog}>Close</button>
             </div>
-
         </div>
-
     )
 }
 
